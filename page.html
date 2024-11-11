@@ -1,0 +1,509 @@
+<!-- home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmora Gamerz</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="header">
+        <h1></h1>
+		<!-- <div class="container">ghghghg</div> -->
+		<!-- <div class="container">hghghghgh</div> -->
+
+		
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Filmora Gamerz - Gaming Channel</title>
+			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+			<style>
+                
+
+                body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+        }
+
+        .navbar {
+            background: linear-gradient(135deg, #555c69, #9fadb8);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar-brand {
+            font-size: 2rem;
+            color: #fff;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: transform 0.3s ease;
+        }
+
+        .navbar-brand:hover {
+            transform: scale(1.1);
+        }
+
+        .nav-link {
+            color: #f8f9fa;
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-right: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #fff;
+            text-decoration: underline;
+            transform: scale(1.05);
+        }
+		
+				/* Animation for dropdowns and menu */
+				@keyframes slideIn {
+					from {
+						opacity: 0;
+						transform: translateX(-50px);
+					}
+					to {
+						opacity: 1;
+						transform: translateX(0);
+					}
+				}
+		
+				.navbar {
+					animation: slideIn 0.5s ease-out;
+				}
+		
+				/* Dropdown Style */
+				.nav-item.dropdown:hover .dropdown-menu {
+					display: block;
+					animation: fadeIn 0.5s ease;
+				}
+		
+				.dropdown-menu {
+					display: none;
+					background-color: #333;
+					border-radius: 5px;
+					box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+				}
+		
+				.dropdown-item {
+					color: #fff;
+					padding: 10px 20px;
+				}
+		
+				.dropdown-item:hover {
+					background-color: #000000;
+				}
+		
+			</style>
+		</head>
+		<body>
+             <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="H:\project 1\templates\entry.html">Filmora Gamerz</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="H:\project 1\templates\home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="file:///H:/project%201/templates/page.html">Videos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="H:\project 1\templates\main.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://youtube.com/@filmoragamerz?si=I5jsvWHDjU5yMsvw" target="_blank">YouTube</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="H:\project 1\templates\contant.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+				</div>
+			</nav>
+		
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+		
+		</body>
+		</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Video Gallery - Filmora Gamerz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+         
+            background-size: 400% 400%;
+            
+        }
+        .video-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+        .video-card {
+            background-color: #383838;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .video-card:hover {
+            transform: scale(1.05);
+        }
+        .video-thumbnail img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px 10px 0 0;
+        }
+        .video-info {
+            padding: 20px;
+        }
+        .video-info h4 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #ff4b5c;
+        }
+        .video-info p {
+            font-size: 0.9rem;
+            
+        }
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3rem;
+            
+            display: none;
+            transition: color 0.3s;
+        }
+        .video-card:hover .play-button {
+            display: block;
+        }
+        .play-button:hover {
+            color: #ff4b5c;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header class="text-center py-5">
+        <h1>Filmora Gamerz - Video Gallery</h1>
+        <p>Explore our latest gaming videos, tutorials, and walkthroughs!</p>
+    </header>
+
+    <section class="video-gallery container">
+
+
+              <!-- Video Card 1 -->
+              <a href="https://youtu.be/PgU_3oYH00U?si=cZD5ECWcdJyc5Bn-" target="_blank" class="video-card">
+                <div class="video-thumbnail">
+                    <img src="WhatsApp Image 2024-11-07 at 02.48.34_965b0ace.jpg" alt="Game 1 Thumbnail">
+                    <span class="play-button">&#9658;</span>
+                </div>
+                <div class="video-info">
+                    <h4>MISSION 1</h4>
+                    <p>
+                        I was complete the first mission of IGI 2//Gameplay#1</p>
+                </div>
+            </a>
+    
+            <!-- Video Card 2 -->
+            <a href="https://youtu.be/bhTN1Ln_UZQ?si=OCI3d3gkTk8CQyqZ" target="_blank" class="video-card">
+                <div class="video-thumbnail">
+                    <img src="WhatsApp Image 2024-11-07 at 02.48.35_07dd6bf4.jpg" alt="Game 2 Thumbnail">
+                    <span class="play-button">&#9658;</span>
+                </div>
+                <div class="video-info">
+                    <h4>MISSION 2</h4>
+                    <p>Completing the IGI 2 second mission | gameplay | part2</p>
+                </div>
+            </a>
+    
+            <!-- Video Card 3 -->
+            <a href="https://youtu.be/hJF1nRFNdYM?si=yfsg_eCR_8Y6SmYU" target="_blank" class="video-card">
+                <div class="video-thumbnail">
+                    <img src="WhatsApp Image 2024-11-07 at 02.48.35_de515e77.jpg" alt="Game 3 Thumbnail">
+                    <span class="play-button">&#9658;</span>
+                </div>
+                <div class="video-info">
+                    <h4>MISSION 3</h4>
+                    <p>
+Completing the IGI 2 third mission || gameplay || part3</p>
+                </div>
+            </a>
+        <!-- Video Card 4 -->
+        <a href="https://youtu.be/gL-E53QWN3E?si=Q6goiCWnBYRhP_R1" target="_blank" class="video-card">
+            <div class="video-thumbnail">
+                <img src="WhatsApp Image 2024-11-07 at 01.01.04_6269f7da.jpg" alt="Game 1 Thumbnail">
+                <span class="play-button">&#9658;</span>
+            </div>
+            <div class="video-info">
+                <h4>MISSION 4</h4>
+                <p>Completing the IGI 2 || Part 4 || Gameplay#4</p>
+            </div>
+        </a>
+
+        <!-- Video Card 5 -->
+        <a href="https://youtu.be/fVPgdqeEIXw?si=EMdbX6oqataxNgSA" target="_blank" class="video-card">
+            <div class="video-thumbnail">
+                <img src="WhatsApp Image 2024-11-07 at 01.01.05_fc50b040.jpg" alt="Game 2 Thumbnail">
+                <span class="play-button">&#9658;</span>
+            </div>
+            <div class="video-info">
+                <h4>MISSION 5</h4>
+                <p>Competing the IGI 2 mission 5 // gameplay#5.</p>
+            </div>
+        </a>
+
+        <!-- Video Card 6 -->
+        <a href="https://youtu.be/GfkI4XSZaxE?si=IcZ_lCWwoZ9myhA4" target="_blank" class="video-card">
+            <div class="video-thumbnail">
+                <img src="WhatsApp Image 2024-11-07 at 01.01.05_740ccea5.jpg" alt="Game 3 Thumbnail">
+                <span class="play-button">&#9658;</span>
+            </div>
+            <div class="video-info">
+                <h4>MISSION 6</h4>
+                <p>
+🎮 IGI 2: Covert Strike - Mission 6 Gameplay Walkthrough 🎯</p>
+            </div>
+        </a>
+               <!-- Video Card 7 -->
+               <a href="https://youtu.be/IKUgLDrpvHo?si=fxJgVqWqLcXD3QeT" target="_blank" class="video-card">
+                <div class="video-thumbnail">
+                    <img src="WhatsApp Image 2024-11-07 at 01.01.06_5105215f.jpg" alt="Game 3 Thumbnail">
+                    <span class="play-button">&#9658;</span>
+                </div>
+                <div class="video-info">
+                    <h4>MISSION 7</h4>
+                    <p>Completing IGI 2 mission 7 ''BORDER CROSSING #subscribers</p>
+                </div>
+            </a>
+                   <!-- Video Card 8 -->
+        <a href="https://youtu.be/Ra233Jf74QE?si=iAKOP7bEgsOvJxlG" target="_blank" class="video-card">
+          <div class="video-thumbnail">
+              <img src="WhatsApp Image 2024-11-07 at 00.14.23_818bef00.jpg" alt="Game 3 Thumbnail">
+              <span class="play-button">&#9658;</span>
+          </div>
+          <div class="video-info">
+              <h4>MISSION 8</h4>
+              <p>Over old team is back Completing IGI 2 ||Gameplay mission 8 || part 8
+            </p>
+          </div>
+      </a>
+             <!-- Video Card 9 -->
+             <a href="https://youtu.be/snWO0vzmkf8?si=eY4JDPpHkW2XOQSf" target="_blank" class="video-card">
+              <div class="video-thumbnail">
+                  <img src="MISSiON 9_20240925_215613_0000.png" alt="Game 3 Thumbnail">
+                  <span class="play-button">&#9658;</span>
+              </div>
+              <div class="video-info">
+                  <h4>Mission 9</h4>
+                  <p>
+I am in prison\\completing IGI2//MISSION 9\\Gameplay//part 9
+                    </p>
+              </div>
+          </a>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+       <script>
+        // Intersection Observer for video cards animation
+        const videoCards = document.querySelectorAll('.video-card');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = "slideUp 0.5s ease-out forwards";
+                }
+            });
+        }, { threshold: 0.5 });
+
+        videoCards.forEach(card => {
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<style>                                                        
+body {
+    font-family: 'Arial', sans-serif; /* Changed font family for a modern look */
+    background: linear-gradient(135deg, #444446, #8d99ae); /* Changed background color */
+    color: #f8f9fa; /* Changed general text color */
+    margin: 0;
+    padding: 0;
+    transition: background 0.5s ease; /* Smooth transition on background change */
+}
+
+.header {
+    background: #1e2130; /* Darker background for header */
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff; /* Pink color for header text */
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: fadeIn 1s ease-out;
+}
+
+h1, h2 {
+    font-family: 'Verdana', sans-serif; /* Different font for header */
+    color: #ffffff; /* Consistent theme color for h1 and h2 */
+}
+
+.navbar {
+    background: #3f3d3d; /* Dark background for navbar */
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+    animation: slideIn 0.5s ease-out;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+.nav-link {
+    color: #f8f9fa;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+.video-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.video-card {
+    background-color: #383838;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.video-card:hover {
+    transform: scale(1.05);
+    animation: popIn 0.3s ease-out; /* Pop-in effect on hover */
+}
+
+.video-thumbnail img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+
+.video-info {
+    padding: 20px;
+}
+
+.video-info h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #fcfcfc;
+    font-family: 'Verdana', sans-serif;
+}
+
+.video-info p {
+    font-size: 0.9rem;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.video-card:hover .play-button {
+    opacity: 1;
+    color: #ffffff; /* Play button color change on hover */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes popIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+</style>

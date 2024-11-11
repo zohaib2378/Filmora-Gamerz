@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmora Gamerz</title>
+    <link href="H:\project 1\templates\625497.webp" rel="stylesheet">
+    <style>
+        body {
+         /* General Styles */
+         body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1b1b1b, #a7d87a, #0013b9);
+            background-size: 400% 400%;
+            animation: glowingBackground 10s ease infinite;
+            color: #db4646;
+        }
+
+        @keyframes glowingBackground {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+    }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            height: 100vh;
+            background: linear-gradient(135deg, rgba(0,0,0,0.8), rgba(0,0,0,0.9)), no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .hero .pixel-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://sl.bing.net/eBFIwasDEKy') repeat; /* Pixelated overlay */
+            opacity: 0.1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            animation: neonFade 2s ease-out;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px #00ffdd, 0 0 20px #00ffdd, 0 0 30px #0088cc;
+            animation: neonPulse 3s infinite;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            color: #c7c7c7;
+            animation: fadeIn 2s ease-out;
+        }
+
+        .hero a {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #ff4b5c;
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 0 10px #ff4b5c, 0 0 20px #e63946;
+            animation: pulseButton 2.5s infinite;
+            transition: transform 0.3s ease;
+        }
+
+        .hero a:hover {
+            transform: scale(1.1);
+            background-color: #e63946;
+        }
+
+        /* Animations */
+        @keyframes neonPulse {
+            0%, 100% {
+                text-shadow: 0 0 10px #00ffdd, 0 0 20px #00ffdd, 0 0 30px #0088cc;
+            }
+            50% {
+                text-shadow: 0 0 20px #00ffdd, 0 0 40px #00ffdd, 0 0 60px #0088cc;
+            }
+        }
+
+        @keyframes pulseButton {
+            0%, 100% {
+                box-shadow: 0 0 10px #ff4b5c, 0 0 20px #e63946;
+            }
+            50% {
+                box-shadow: 0 0 20px #ff4b5c, 0 0 30px #e63946;
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes neonFade {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="pixel-overlay"></div>
+        <div class="hero-content">
+            <h1>Welcome to Filmora Gamerz</h1>
+            <p>Your ultimate destination for gaming videos, tutorials, and tips!</p>
+            <a href="H:\project 1\templates\entry.html">Explore Now</a>
+        </div>
+
+</body>
+</html>
+
+
+
+ 
